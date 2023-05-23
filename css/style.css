@@ -7,7 +7,7 @@ body {
   font-size: 18px;
   line-height: 27px;
   color: black;
-  
+  background-color: #fce6e6;
   font-family: 'Wix Madefor Display', sans-serif;
   font-weight: 400;
 }
@@ -151,7 +151,8 @@ a {
   background-color: #000000;
 } */
 .medical__inner {
-  border: 5px solid #306349;
+  /* border: 5px solid #e13232; */
+  box-shadow: 0 0 50px #ffffff;
   padding: 20px;
   display: flex;
   /* justify-content: space-evenly; */
@@ -218,7 +219,8 @@ a {
   background-color: #000000;
 } */
 .fiscal__inner {
-  border: 5px solid #306349;
+    /* border: 5px solid #e13232; */
+    box-shadow: 0 0 50px #ffffff;
   padding: 20px;
   display: flex;
   /* justify-content: space-evenly; */
@@ -264,6 +266,8 @@ a {
 }
 
 .asistencia__inner {
+    /* border: 5px solid #e13232; */
+    box-shadow: 0 0 50px #ffffff;
   background-color: #000000;
   color:#fff;
   display: flex;
