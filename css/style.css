@@ -3,12 +3,13 @@
 *::before {
   box-sizing: border-box;
 }
-.body {
+body {
   font-size: 18px;
   line-height: 27px;
-  font-weight: 300;
   color: black;
-  font-family: "Wix Madefor Display", sans-serif;
+  
+  font-family: 'Wix Madefor Display', sans-serif;
+  font-weight: 400;
 }
 /* font-family: 'Homemade Apple', cursive; */
 
@@ -260,4 +261,55 @@ a {
   background-position: center center;
   /* width: 40px; */
   color: white;
+}
+
+.asistencia__inner {
+  background-color: #000000;
+  color:#fff;
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.asistencia__title {
+  color: #306349;
+  font-size: 28px;
+  line-height: 56px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  position:relative;
+}
+
+.asistencia__content {
+  flex-basis: 50%;
+  padding: 20px;
+}
+.asistencia__content-title {
+  color:#ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.asistencia_img-containers {
+  flex-basis: 50%;
+  display:flex;
+  flex-direction: column;
+}
+.asistencia__img-container-1 {
+  flex-basis:50%;
+  background-image: url("../images/tiflis.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  color: white;
+  background-attachment: fixed;
+}
+.asistencia__img-container-2 {
+  flex-basis: 50%;
+  background-image: url("../images/olya_jacket.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  color: white;
+  background-attachment: fixed;
 }
