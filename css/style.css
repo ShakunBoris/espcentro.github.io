@@ -3,11 +3,15 @@
 *::before {
   box-sizing: border-box;
 }
+/* GREEN */
+/* #8a979a */
+/* grey */
+/* #8a979a */
 body {
   font-size: 18px;
   line-height: 27px;
   color: black;
-  background-color: #fce6e6;
+  background-color: #ffffff;
   font-family: 'Wix Madefor Display', sans-serif;
   font-weight: 400;
 }
@@ -33,7 +37,10 @@ a {
   min-height: 500px;
   max-height: 600px;
   color: white;
+  /* opacity: 95%; */
+  /* backface-visibility: visible; */
 }
+
 
 .header__top {
   padding: 20px 0 20px;
@@ -90,22 +97,23 @@ a {
   /* text-shadow: 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000,
     0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000; */
 
-  text-shadow: 0 0 20px #fff, 0 0 25px #306349, 0 0 30px #306349,
-    0 0 40px #306349, 0 0 50px #306349, 0 0 60px #306349, 0 0 70px #306349;
+  text-shadow: 0 0 20px #fff, 0 0 25px #8a979a, 0 0 30px #8a979a,
+    0 0 40px #8a979a, 0 0 50px #8a979a, 0 0 60px #8a979a, 0 0 70px #8a979a;
 }
+
 .header__button {
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
   padding: 14px 54px 15px;
-  background-color: #306349;
+  background-color: #8a979a;
   border-radius: 5px;
   opacity: 80%;
   transition: all .5s;
 }
 .header__button:hover {
     background-color: #fff;
-    color:#306349
+    color:#8a979a
 }
 .header__social {
   padding: 20px 0 10px 90px;
@@ -131,11 +139,11 @@ a {
 
 .medical {
   padding-top: 50px;
-  /* box-shadow: 0 0 20px #fff, 0 0 25px #306349, 0 0 30px #306349,
-    0 0 40px #306349, 0 0 50px #306349, 0 0 60px #306349, 0 0 70px #306349; */
+  /* box-shadow: 0 0 20px #fff, 0 0 25px #8a979a, 0 0 30px #8a979a,
+    0 0 40px #8a979a, 0 0 50px #8a979a, 0 0 60px #8a979a, 0 0 70px #8a979a; */
 }
 .medical__title {
-  color: #306349;
+  color: #8a979a;
   font-size: 28px;
   line-height: 56px;
   font-weight: 400;
@@ -152,7 +160,7 @@ a {
 } */
 .medical__inner {
   /* border: 5px solid #e13232; */
-  box-shadow: 0 0 50px #ffffff;
+  box-shadow: 0 0 50px #8a979a;
   padding: 20px;
   display: flex;
   /* justify-content: space-evenly; */
@@ -165,7 +173,7 @@ a {
 
 .medical__content-box {}
 .medical__content-title {
-  color:#306349;
+  color:#8a979a;
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
@@ -199,11 +207,11 @@ a {
 
 .fiscal {
   padding-top: 50px;
-  /* box-shadow: 0 0 20px #fff, 0 0 25px #306349, 0 0 30px #306349,
-    0 0 40px #306349, 0 0 50px #306349, 0 0 60px #306349, 0 0 70px #306349; */
+  /* box-shadow: 0 0 20px #fff, 0 0 25px #8a979a, 0 0 30px #8a979a,
+    0 0 40px #8a979a, 0 0 50px #8a979a, 0 0 60px #8a979a, 0 0 70px #8a979a; */
 }
 .fiscal__title {
-  color: #306349;
+  color: #8a979a;
   font-size: 28px;
   line-height: 56px;
   font-weight: 400;
@@ -220,7 +228,7 @@ a {
 } */
 .fiscal__inner {
     /* border: 5px solid #e13232; */
-    box-shadow: 0 0 50px #ffffff;
+    box-shadow: 0 0 50px #8a979a;
   padding: 20px;
   display: flex;
   /* justify-content: space-evenly; */
@@ -233,7 +241,7 @@ a {
 
 .fiscal__content-box {}
 .fiscal__content-title {
-  color:#306349;
+  color:#8a979a;
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
@@ -267,7 +275,7 @@ a {
 
 .asistencia__inner {
     /* border: 5px solid #e13232; */
-    box-shadow: 0 0 50px #ffffff;
+    box-shadow: 0 0 50px #8a979a;
   background-color: #000000;
   color:#fff;
   display: flex;
@@ -275,7 +283,7 @@ a {
 }
 
 .asistencia__title {
-  color: #306349;
+  color: #8a979a;
   font-size: 28px;
   line-height: 56px;
   font-weight: 400;
@@ -301,7 +309,7 @@ a {
 }
 .asistencia__img-container-1 {
   flex-basis:50%;
-  background-image: url("../images/tiflis.jpg");
+  background-image: url("../images/olya_shirt.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right center;
