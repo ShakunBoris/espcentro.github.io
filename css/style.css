@@ -273,6 +273,8 @@ a {
   color: white;
 }
 
+.asistencia {
+  padding-top: 50px; }
 .asistencia__inner {
     /* border: 5px solid #e13232; */
     box-shadow: 0 0 50px #8a979a;
